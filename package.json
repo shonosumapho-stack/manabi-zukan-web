@@ -1,0 +1,16 @@
+{
+  "name": "manabi_zukan_web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "sync": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-assets.ps1",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
